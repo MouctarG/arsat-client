@@ -6,7 +6,8 @@
     "name": "Łukasz Holeczek",
     "url": "http://holeczek.pl",
     "github": "https://github.com/mrholek",
-    "twitter": "https://twitter.com/lukaszholeczek"
+    "twitter": "https://twitter.com/lukaszholeczek",
+    "heroku-postbuild": "ng build --prod"
   },
   "contributors": [
     {
@@ -20,7 +21,7 @@
   "scripts": {
     "ng": "ng",
     "postinstall": "ngcc --properties es2015 browser module main --first-only",
-    "start": "ng serve",
+    "start": "node serveur.js",
     "build": "ng build --prod --aot --build-optimizer --common-chunk --vendor-chunk --optimization --progress",
     "test": "ng test",
     "lint": "ng lint",
@@ -79,7 +80,8 @@
     "ts-helpers": "^1.1.2",
     "tslib": "^2.0.0",
     "web-animations-js": "^2.3.2",
-    "zone.js": "~0.10.3"
+    "zone.js": "~0.10.3",
+    "typescript": "~4.1.5"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^0.1102.4",
@@ -103,7 +105,7 @@
     "typescript": "~4.1.5"
   },
   "engines": {
-    "node": ">= 10.13",
-    "npm": ">= 6"
+    "node": "12.16.1",
+    "nmp": "6.13.4"
   }
 }
