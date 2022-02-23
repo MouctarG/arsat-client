@@ -1,0 +1,11 @@
+{
+  "/odata": {
+    "target":  {
+      "host": "arsat-341516.appspot.com",
+      "protocol": "https:"
+    },
+    "secure": false,
+    "changeOrigin": true,
+    "logLevel": "info"
+  }
+}

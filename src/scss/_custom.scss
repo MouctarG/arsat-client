@@ -1,0 +1,15 @@
+// Here you can add other styles
+
+*:focus {
+  outline: 0 !important;
+}
+
+/*
+* Overrides z-index elements syncfusion
+*/
+/* Menu tri colonne grid, Tooltip, Date Range Picker */
+.e-contextmenu-wrapper.e-grid-menu.e-lib,
+.e-tooltip-wrap.e-popup.e-lib.e-control.e-popup-open,
+.e-daterangepicker.e-popup {
+  z-index: 2000 !important;
+}

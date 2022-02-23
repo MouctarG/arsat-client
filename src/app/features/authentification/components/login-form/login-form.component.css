@@ -1,0 +1,11 @@
+.input {
+  width:100%;
+}
+
+.e-error {
+  margin-bottom: 10px;
+}
+
+button[type=submit] {
+  margin-top: 25px;
+}

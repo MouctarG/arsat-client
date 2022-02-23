@@ -1,0 +1,43 @@
+/* To learn more about this file see: https://angular.io/config/tsconfig. */
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "importHelpers": true,
+    "outDir": "./dist/out-tsc",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "module": "es2020",
+    "target": "es2015",
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "lib": [
+      "esnext",
+      "dom"
+    ],
+    "baseUrl": ".",
+    "paths": {
+      "@core/store": [
+        "src/app/core/store"
+      ],
+      "@core/auth": [
+        "src/app/core/auth"
+      ],
+      "@core/models": [
+        "src/app/core/models"
+      ],
+      "@core/pipes": [
+        "src/app/core/pipes"
+      ],
+      "@core/tools": [
+        "src/app/core/tools"
+      ],
+      "@ui/loading": [
+        "src/app/ui/loading"
+      ]
+    }
+  }
+}
